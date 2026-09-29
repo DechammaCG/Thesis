@@ -43,7 +43,7 @@ python3 src/prediction/forced_choice/fc_direct_prompt.py
 
 ## Running the analysis scripts
 
-Each script in `src/llm_analysis/` and `src/human_analysis/` reads a CSV and prints all metrics straight to the console. Edit the `INPUT_FILE` and `HUMAN_FILE` variable near the top to point at the file you want to analyze.
+Each script in `src/llm_analysis/` and `human_analysis/` reads a CSV and prints all metrics straight to the console. Edit the `INPUT_FILE` and `HUMAN_FILE` variable near the top to point at the file you want to analyze.
 
 ```bash
 python3 human_analysis/intersectional_analysis.py
